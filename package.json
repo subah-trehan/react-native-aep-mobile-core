@@ -1,6 +1,6 @@
 
 {
-  "name": "react-native-mobile-core",
+  "name": "react-native-aep-mobile-core",
   "version": "1.0.0",
   "description": "",
   "main":"./js/index.js",
