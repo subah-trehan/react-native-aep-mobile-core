@@ -8,7 +8,102 @@
 
 /* Begin PBXBuildFile section */
 		B827408825EF623100730F71 /* RNMobileCore.m in Sources */ = {isa = PBXBuildFile; fileRef = B827408625EF622000730F71 /* RNMobileCore.m */; };
+		B827414425EF715F00730F71 /* AEPCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B827412A25EF6FC900730F71 /* AEPCore.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B827412925EF6FC900730F71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B827410925EF6FC900730F71 /* AEPCore.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 21CAC0D62422917600C11388;
+			remoteInfo = AEPCore;
+		};
+		B827412B25EF6FC900730F71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B827410925EF6FC900730F71 /* AEPCore.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3FF8170A24D89B160064DFA1;
+			remoteInfo = AEPCoreMocks;
+		};
+		B827412D25EF6FC900730F71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B827410925EF6FC900730F71 /* AEPCore.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 21CAC0DF2422917600C11388;
+			remoteInfo = AEPCoreTests;
+		};
+		B827412F25EF6FC900730F71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B827410925EF6FC900730F71 /* AEPCore.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3FE6DE2F24C642330065EA05;
+			remoteInfo = AEPIdentity;
+		};
+		B827413125EF6FC900730F71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B827410925EF6FC900730F71 /* AEPCore.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3FE6DE3724C642330065EA05;
+			remoteInfo = AEPIdentityTests;
+		};
+		B827413325EF6FC900730F71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B827410925EF6FC900730F71 /* AEPCore.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3FE6DDD124C62EE60065EA05;
+			remoteInfo = AEPLifecycle;
+		};
+		B827413525EF6FC900730F71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B827410925EF6FC900730F71 /* AEPCore.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3FE6DDD924C62EE60065EA05;
+			remoteInfo = AEPLifecycleTests;
+		};
+		B827413725EF6FC900730F71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B827410925EF6FC900730F71 /* AEPCore.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3F03978724BE5DD30019F095;
+			remoteInfo = AEPServices;
+		};
+		B827413925EF6FC900730F71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B827410925EF6FC900730F71 /* AEPCore.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3FE6DDA924C62C090065EA05;
+			remoteInfo = AEPServicesMocks;
+		};
+		B827413B25EF6FC900730F71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B827410925EF6FC900730F71 /* AEPCore.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3F03978F24BE5DD30019F095;
+			remoteInfo = AEPServicesTests;
+		};
+		B827413D25EF6FC900730F71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B827410925EF6FC900730F71 /* AEPCore.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 24B4934F24D4C31100AA38D9;
+			remoteInfo = AEPSignal;
+		};
+		B827413F25EF6FC900730F71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B827410925EF6FC900730F71 /* AEPCore.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 24B4935724D4C31100AA38D9;
+			remoteInfo = AEPSignalTests;
+		};
+		B827414125EF6FC900730F71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B827410925EF6FC900730F71 /* AEPCore.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3F4256FC24F474F4005D4006;
+			remoteInfo = AEPIntegrationTests;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		58B511D91A9E6C8500147676 /* CopyFiles */ = {
@@ -26,6 +121,7 @@
 		134814201AA4EA6300B7C361 /* libRNMobileCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNMobileCore.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B827408525EF622000730F71 /* RNMobileCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNMobileCore.h; sourceTree = "<group>"; };
 		B827408625EF622000730F71 /* RNMobileCore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNMobileCore.m; sourceTree = "<group>"; };
+		B827410925EF6FC900730F71 /* AEPCore.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AEPCore.xcodeproj; path = "../../../NPM Library/AEPSDK-CORE/AEPCore.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +129,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B827414425EF715F00730F71 /* AEPCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +149,7 @@
 			children = (
 				B827408425EF622000730F71 /* Core */,
 				134814211AA4EA7D00B7C361 /* Products */,
+				B827410825EF6FC900730F71 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,6 +161,34 @@
 			);
 			name = Core;
 			path = src/Core;
+			sourceTree = "<group>";
+		};
+		B827410825EF6FC900730F71 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B827410925EF6FC900730F71 /* AEPCore.xcodeproj */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B827410A25EF6FC900730F71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B827412A25EF6FC900730F71 /* AEPCore.framework */,
+				B827412C25EF6FC900730F71 /* AEPCoreMocks.framework */,
+				B827412E25EF6FC900730F71 /* AEPCoreTests.xctest */,
+				B827413025EF6FC900730F71 /* AEPIdentity.framework */,
+				B827413225EF6FC900730F71 /* AEPIdentityTests.xctest */,
+				B827413425EF6FC900730F71 /* AEPLifecycle.framework */,
+				B827413625EF6FC900730F71 /* AEPLifecycleTests.xctest */,
+				B827413825EF6FC900730F71 /* AEPServices.framework */,
+				B827413A25EF6FC900730F71 /* AEPServicesMocks.framework */,
+				B827413C25EF6FC900730F71 /* AEPServicesTests.xctest */,
+				B827413E25EF6FC900730F71 /* AEPSignal.framework */,
+				B827414025EF6FC900730F71 /* AEPSignalTests.xctest */,
+				B827414225EF6FC900730F71 /* AEPIntegrationTests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -114,12 +240,112 @@
 			);
 			productRefGroup = 58B511D21A9E6C8500147676;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = B827410A25EF6FC900730F71 /* Products */;
+					ProjectRef = B827410925EF6FC900730F71 /* AEPCore.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				58B511DA1A9E6C8500147676 /* RNMobileCore */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		B827412A25EF6FC900730F71 /* AEPCore.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AEPCore.framework;
+			remoteRef = B827412925EF6FC900730F71 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B827412C25EF6FC900730F71 /* AEPCoreMocks.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AEPCoreMocks.framework;
+			remoteRef = B827412B25EF6FC900730F71 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B827412E25EF6FC900730F71 /* AEPCoreTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = AEPCoreTests.xctest;
+			remoteRef = B827412D25EF6FC900730F71 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B827413025EF6FC900730F71 /* AEPIdentity.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AEPIdentity.framework;
+			remoteRef = B827412F25EF6FC900730F71 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B827413225EF6FC900730F71 /* AEPIdentityTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = AEPIdentityTests.xctest;
+			remoteRef = B827413125EF6FC900730F71 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B827413425EF6FC900730F71 /* AEPLifecycle.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AEPLifecycle.framework;
+			remoteRef = B827413325EF6FC900730F71 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B827413625EF6FC900730F71 /* AEPLifecycleTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = AEPLifecycleTests.xctest;
+			remoteRef = B827413525EF6FC900730F71 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B827413825EF6FC900730F71 /* AEPServices.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AEPServices.framework;
+			remoteRef = B827413725EF6FC900730F71 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B827413A25EF6FC900730F71 /* AEPServicesMocks.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AEPServicesMocks.framework;
+			remoteRef = B827413925EF6FC900730F71 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B827413C25EF6FC900730F71 /* AEPServicesTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = AEPServicesTests.xctest;
+			remoteRef = B827413B25EF6FC900730F71 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B827413E25EF6FC900730F71 /* AEPSignal.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AEPSignal.framework;
+			remoteRef = B827413D25EF6FC900730F71 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B827414025EF6FC900730F71 /* AEPSignalTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = AEPSignalTests.xctest;
+			remoteRef = B827413F25EF6FC900730F71 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B827414225EF6FC900730F71 /* AEPIntegrationTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = AEPIntegrationTests.xctest;
+			remoteRef = B827414125EF6FC900730F71 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXSourcesBuildPhase section */
 		58B511D71A9E6C8500147676 /* Sources */ = {
