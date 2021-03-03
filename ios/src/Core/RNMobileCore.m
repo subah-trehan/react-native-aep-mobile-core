@@ -9,7 +9,7 @@
 }
 
 RCT_EXPORT_METHOD(extensionVersion: (RCTPromiseResolveBlock) resolve rejecter:(RCTPromiseRejectBlock)reject) {
-    resolve([AEPCore extensionVersion]);
+    resolve([AEPMobileCore extensionVersion]);
 }
 
 RCT_EXPORT_MODULE(RNMobileCore)
