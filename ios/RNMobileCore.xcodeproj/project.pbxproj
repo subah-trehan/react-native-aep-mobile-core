@@ -3,16 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		B827408825EF623100730F71 /* RNMobileCore.m in Sources */ = {isa = PBXBuildFile; fileRef = B827408625EF622000730F71 /* RNMobileCore.m */; };
-		B827408C25EF636700730F71 /* AEPIdentity in Frameworks */ = {isa = PBXBuildFile; productRef = B827408B25EF636700730F71 /* AEPIdentity */; };
-		B827408E25EF636700730F71 /* AEPSignal in Frameworks */ = {isa = PBXBuildFile; productRef = B827408D25EF636700730F71 /* AEPSignal */; };
-		B827409025EF636700730F71 /* AEPCore in Frameworks */ = {isa = PBXBuildFile; productRef = B827408F25EF636700730F71 /* AEPCore */; };
-		B827409225EF636700730F71 /* AEPServices in Frameworks */ = {isa = PBXBuildFile; productRef = B827409125EF636700730F71 /* AEPServices */; };
-		B827409425EF636700730F71 /* AEPLifecycle in Frameworks */ = {isa = PBXBuildFile; productRef = B827409325EF636700730F71 /* AEPLifecycle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -38,11 +33,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B827409025EF636700730F71 /* AEPCore in Frameworks */,
-				B827409225EF636700730F71 /* AEPServices in Frameworks */,
-				B827408C25EF636700730F71 /* AEPIdentity in Frameworks */,
-				B827408E25EF636700730F71 /* AEPSignal in Frameworks */,
-				B827409425EF636700730F71 /* AEPLifecycle in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,11 +82,6 @@
 			);
 			name = RNMobileCore;
 			packageProductDependencies = (
-				B827408B25EF636700730F71 /* AEPIdentity */,
-				B827408D25EF636700730F71 /* AEPSignal */,
-				B827408F25EF636700730F71 /* AEPCore */,
-				B827409125EF636700730F71 /* AEPServices */,
-				B827409325EF636700730F71 /* AEPLifecycle */,
 			);
 			productName = RCTDataManager;
 			productReference = 134814201AA4EA6300B7C361 /* libRNMobileCore.a */;
@@ -126,7 +111,6 @@
 			);
 			mainGroup = 58B511D21A9E6C8500147676;
 			packageReferences = (
-				B827408A25EF636700730F71 /* XCRemoteSwiftPackageReference "aepsdk-core-ios" */,
 			);
 			productRefGroup = 58B511D21A9E6C8500147676;
 			projectDirPath = "";
@@ -284,45 +268,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		B827408A25EF636700730F71 /* XCRemoteSwiftPackageReference "aepsdk-core-ios" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/adobe/aepsdk-core-ios.git";
-			requirement = {
-				branch = main;
-				kind = branch;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		B827408B25EF636700730F71 /* AEPIdentity */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = B827408A25EF636700730F71 /* XCRemoteSwiftPackageReference "aepsdk-core-ios" */;
-			productName = AEPIdentity;
-		};
-		B827408D25EF636700730F71 /* AEPSignal */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = B827408A25EF636700730F71 /* XCRemoteSwiftPackageReference "aepsdk-core-ios" */;
-			productName = AEPSignal;
-		};
-		B827408F25EF636700730F71 /* AEPCore */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = B827408A25EF636700730F71 /* XCRemoteSwiftPackageReference "aepsdk-core-ios" */;
-			productName = AEPCore;
-		};
-		B827409125EF636700730F71 /* AEPServices */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = B827408A25EF636700730F71 /* XCRemoteSwiftPackageReference "aepsdk-core-ios" */;
-			productName = AEPServices;
-		};
-		B827409325EF636700730F71 /* AEPLifecycle */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = B827408A25EF636700730F71 /* XCRemoteSwiftPackageReference "aepsdk-core-ios" */;
-			productName = AEPLifecycle;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 58B511D31A9E6C8500147676 /* Project object */;
 }
