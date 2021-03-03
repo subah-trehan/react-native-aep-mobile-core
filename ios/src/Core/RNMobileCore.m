@@ -1,4 +1,4 @@
-@import AEPCore;
+#import "AEPCore.h"
 #import "RNMobileCore.h"
 #import "React/RCTLog.h"
 @implementation RNMobileCore
