@@ -14,5 +14,5 @@ module.exports = {
     return Promise.resolve(RNMobileCore.extensionVersion());
   },
 
-  
+
 };
