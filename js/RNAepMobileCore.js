@@ -3,12 +3,12 @@
 'use strict';
 import {NativeModules} from 'react-native';
 
-const RNMobileCore = NativeModules.RNMobileCore;
+const RNAepMobileCore = NativeModules.RNAepMobileCore;
 
 module.exports = {
-  
+
   extensionVersion(): Promise<string> {
-    return Promise.resolve(RNMobileCore.extensionVersion());
+    return Promise.resolve(RNAepMobileCore.extensionVersion());
   },
 
 

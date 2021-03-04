@@ -5,7 +5,6 @@
 #import <React/RCTBridgeModule.h>
 #endif
 
-@interface RNMobileCore : NSObject <RCTBridgeModule>
+@interface RNAepMobileCore : NSObject <RCTBridgeModule>
 
 @end
-  

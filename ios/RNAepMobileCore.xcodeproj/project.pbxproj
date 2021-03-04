@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B827408825EF623100730F71 /* RNMobileCore.m in Sources */ = {isa = PBXBuildFile; fileRef = B827408625EF622000730F71 /* RNMobileCore.m */; };
+		B827432A25F0ED4D00730F71 /* RNAepMobileCore.m in Sources */ = {isa = PBXBuildFile; fileRef = B827432925F0ED2D00730F71 /* RNAepMobileCore.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		58B511D91A9E6C8500147676 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 12;
+			buildActionMask = 2147483647;
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
@@ -23,9 +23,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		134814201AA4EA6300B7C361 /* libRNMobileCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNMobileCore.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		B827408525EF622000730F71 /* RNMobileCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNMobileCore.h; sourceTree = "<group>"; };
-		B827408625EF622000730F71 /* RNMobileCore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNMobileCore.m; sourceTree = "<group>"; };
+		134814201AA4EA6300B7C361 /* libRNAepMobileCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNAepMobileCore.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B827432825F0ED2D00730F71 /* RNAepMobileCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNAepMobileCore.h; sourceTree = "<group>"; };
+		B827432925F0ED2D00730F71 /* RNAepMobileCore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNAepMobileCore.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,7 +42,7 @@
 		134814211AA4EA7D00B7C361 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				134814201AA4EA6300B7C361 /* libRNMobileCore.a */,
+				134814201AA4EA6300B7C361 /* libRNAepMobileCore.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -50,35 +50,27 @@
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
-				B827408425EF622000730F71 /* Core */,
+				B827432725F0ED2D00730F71 /* Core */,
 				134814211AA4EA7D00B7C361 /* Products */,
-				B827410825EF6FC900730F71 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		B827408425EF622000730F71 /* Core */ = {
+		B827432725F0ED2D00730F71 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				B827408525EF622000730F71 /* RNMobileCore.h */,
-				B827408625EF622000730F71 /* RNMobileCore.m */,
+				B827432825F0ED2D00730F71 /* RNAepMobileCore.h */,
+				B827432925F0ED2D00730F71 /* RNAepMobileCore.m */,
 			);
 			name = Core;
 			path = src/Core;
 			sourceTree = "<group>";
 		};
-		B827410825EF6FC900730F71 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		58B511DA1A9E6C8500147676 /* RNMobileCore */ = {
+		58B511DA1A9E6C8500147676 /* RNAepMobileCore */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "RNMobileCore" */;
+			buildConfigurationList = 58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "RNAepMobileCore" */;
 			buildPhases = (
 				58B511D71A9E6C8500147676 /* Sources */,
 				58B511D81A9E6C8500147676 /* Frameworks */,
@@ -88,11 +80,9 @@
 			);
 			dependencies = (
 			);
-			name = RNMobileCore;
-			packageProductDependencies = (
-			);
+			name = RNAepMobileCore;
 			productName = RCTDataManager;
-			productReference = 134814201AA4EA6300B7C361 /* libRNMobileCore.a */;
+			productReference = 134814201AA4EA6300B7C361 /* libRNAepMobileCore.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -109,7 +99,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "RNMobileCore" */;
+			buildConfigurationList = 58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "RNAepMobileCore" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -118,13 +108,11 @@
 				en,
 			);
 			mainGroup = 58B511D21A9E6C8500147676;
-			packageReferences = (
-			);
 			productRefGroup = 58B511D21A9E6C8500147676;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				58B511DA1A9E6C8500147676 /* RNMobileCore */,
+				58B511DA1A9E6C8500147676 /* RNAepMobileCore */,
 			);
 		};
 /* End PBXProject section */
@@ -134,7 +122,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B827408825EF623100730F71 /* RNMobileCore.m in Sources */,
+				B827432A25F0ED4D00730F71 /* RNAepMobileCore.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,13 +219,9 @@
 					"$(SRCROOT)/../../../React/**",
 					"$(SRCROOT)/../../react-native/React/**",
 				);
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Frameworks",
-					"$(SRCROOT)/**",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = RNMobileCore;
+				PRODUCT_NAME = RNAepMobileCore;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -251,13 +235,9 @@
 					"$(SRCROOT)/../../../React/**",
 					"$(SRCROOT)/../../react-native/React/**",
 				);
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Frameworks",
-					"$(SRCROOT)/**",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = RNMobileCore;
+				PRODUCT_NAME = RNAepMobileCore;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -265,7 +245,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "RNMobileCore" */ = {
+		58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "RNAepMobileCore" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				58B511ED1A9E6C8500147676 /* Debug */,
@@ -274,7 +254,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "RNMobileCore" */ = {
+		58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "RNAepMobileCore" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				58B511F01A9E6C8500147676 /* Debug */,
